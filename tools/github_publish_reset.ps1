@@ -157,6 +157,8 @@ function Invoke-GithubPublication($Targets,[string]$Backup,[string]$Message,
         foreach($group in $target.Plan) {
             foreach($keep in $group.Keep) {
                 [void](Invoke-PublishGit $target.Root @('add','-f','--',($group.Relative+'/'+$keep.Name)))
+                # Refresh tracked image bytes after text-attribute changes.
+                [void](Invoke-PublishGit $target.Root @('add','--renormalize','--',($group.Relative+'/'+$keep.Name)))
             }
         }
         foreach($relative in @($target.RequiredFiles | Where-Object {$_})) {

@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Preserve the validated formal image bytes.
+DefaultBuild/boot0000_1FFF.hex -text
