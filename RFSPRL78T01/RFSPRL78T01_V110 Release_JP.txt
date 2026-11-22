@@ -1,0 +1,19 @@
+Renesas Flash Sample Program Type 01(RFSP Type 01) for RL78/G15,G16(V1.10) �g�p���̒��ӎ���
+
+�Z�t�@�C���\��
+  RFSPRL78T01
+  + include : RFSP�C���N���[�h�E�t�@�C���Q
+  + source  : RFSP�\�[�X�E�t�@�C���Q
+  + userown : RFSP���[�U�����t�@�C��
+  + sample  : �T���v���E�v���O�����Q
+              CF/codeflash     : �R�[�h�E�t���b�V���E����������p�T���v��
+              DF/dataflash     : �f�[�^�E�t���b�V���E����������p�T���v��
+
+
+�Z�Ή��R���p�C��
+  CC-RL V1.10.00�ȍ~ (CS+ for CC/e2studio)
+  IAR V4.21�ȍ~ (IAR EW)
+  �� �����J�����A����уR���p�C���́A�Ώۃf�o�C�X��T�|�[�g���Ă���K�v������܂��B
+
+
+�ȏ�

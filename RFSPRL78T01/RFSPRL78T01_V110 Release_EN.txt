@@ -1,0 +1,17 @@
+Notes when using Renesas Flash Sample Program Type 01(RFSP Type 01) for RL78/G15 and RL78/G16 (V1.10)
+
+[File structure]
+  RFSPRL78T01
+  + include : RFSP include file
+  + source  : RFSP source file
+  + userown : RFSP user difinition file
+  + sample  : Sample program
+              CF/codeflash     : The sample for code flash memory control.
+              DF/dataflash     : The sample for data flash memory control.
+
+
+[Target compiler]
+  CC-RL V1.10.00 or later (CS+ for CC/e2studio) 
+  IAR V4.21 or later (IAR EW)
+  * Integrated development environment and compiler must support the target device.
+
