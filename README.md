@@ -29,7 +29,7 @@ Boot owns physical vectors: AA selects Boot handlers; 55 forwards through the Ap
 - `isp/`: protocol/update engine and board transport/Flash adapters.
 - `image_metadata.c/.h`, `image_metadata_profile.c`: independent parser and expected profile.
 
-App release/IRQ edits belong to the paired [App project](../RL78_G16_ISP_Boot_loader_Xmodem_app/README.md).
+App release/IRQ edits belong to the paired [App project](https://github.com/released/RL78_G16_ISP_Boot_loader_Xmodem_app/blob/main/README.md).
 
 ## Smart Configurator
 
@@ -52,7 +52,7 @@ Configuration steps and the seven-bit I2C / SVA conversion are in the
 Run in this project root using installed CS+/CC-RL and Windows PowerShell:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .uild.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
 ```
 
 Use `-Compiler <CubeSuite+.exe>` for a different installed CS+ path. Firmware authoring/build requires no Python or JSON editor. Generated INC/identity files are outputs, not inputs. App/Transfer wrappers build only themselves.
